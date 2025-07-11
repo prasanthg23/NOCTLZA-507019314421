@@ -9,7 +9,7 @@ cdkOptions:
 terminationProtection: true
 enableOptInRegions: false
 controlTower:
-  enable: true
+  enable: false
   controls: []
 logging:
   account: LogArchive
