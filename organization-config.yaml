@@ -1,0 +1,11 @@
+enable: true
+organizationalUnits:
+  - name: Security
+  - name: AFT
+  - name: Sandbox
+  - name: testou2
+  - name: Suspended
+    ignore: true
+serviceControlPolicies: []
+taggingPolicies: []
+backupPolicies: []

@@ -1,0 +1,33 @@
+customizations:
+  cloudFormationStacks:
+    - deploymentTargets:
+        accounts:
+          - LogArchive
+      description: Sample stack description
+      name: Custom-S3-Stack
+      regions:
+        - us-east-1
+      runOrder: 1
+      template: templates/s3.yaml
+      terminationProtection: false
+    - deploymentTargets:
+        accounts:
+          - LogArchive
+      description: Sample stack description
+      name: Custom-policy01-Stack
+      regions:
+        - us-east-1
+      runOrder: 3
+      template: templates/policy.json
+      terminationProtection: false     
+    - deploymentTargets:
+        accounts:
+          - LogArchive
+      description: Sample stack description
+      name: Custom-iam01-Stack
+      regions:
+        - us-east-1
+      runOrder: 2
+      template: templates/iam.yaml
+      terminationProtection: false    
+     

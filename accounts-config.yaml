@@ -1,0 +1,59 @@
+mandatoryAccounts:
+  - name: Management
+    description: >-
+      The management (primary) account. Do not change the name field for this
+      mandatory account. Note, the account name key does not need to match the
+      AWS account name.
+    email: psanthg+ctilt@amazon.com
+    organizationalUnit: Root
+    warm: false
+  - name: LogArchive
+    description: >-
+      The log archive account. Do not change the name field for this mandatory
+      account. Note, the account name key does not need to match the AWS account
+      name.
+    email: psanthg+logilt@amazon.com
+    organizationalUnit: Security
+    warm: false
+  - name: Audit
+    description: >-
+      The security audit account (also referred to as the audit account). Do not
+      change the name field for this mandatory account. Note, the account name
+      key does not need to match the AWS account name.
+    email: psanthg+auditilt@amazon.com
+    organizationalUnit: Security
+    warm: false
+workloadAccounts:
+  []
+  # - name: labtestaccntlza
+  #   description: >-
+  #     The management (primary) account. Do not change the name field for this
+  #     mandatory account. Note, the account name key does not need to match the
+  #     AWS account name.
+  #   email: psanthg+labtestlzactmaster@amazon.com
+  #   organizationalUnit: Infrastructure
+  #   warm: false
+  # - name: testlambda
+  #   description: >-
+  #     The management (primary) account. Do not change the name field for this
+  #     mandatory account. Note, the account name key does not need to match the
+  #     AWS account name.
+  #   email: psanthg+lambdatest@amazon.com
+  #   organizationalUnit: testlambda
+  #   warm: false
+  # - name: s3test
+  #   description: >-
+  #     The management (primary) account. Do not change the name field for this
+  #     mandatory account. Note, the account name key does not need to match the
+  #     AWS account name.
+  #   email: psanthg+s3lock@amazon.com
+  #   organizationalUnit: Infrastructure
+  #   warm: false
+  # - name: s3test2
+  #   description: >-
+  #     The management (primary) account. Do not change the name field for this
+  #     mandatory account. Note, the account name key does not need to match the
+  #     AWS account name.
+  #   email: psanthg+s3lock2@amazon.com
+  #   organizationalUnit: Infrastructure
+  #   warm: false
